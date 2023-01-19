@@ -33,7 +33,7 @@ const Navigation = () => {
             </div>
         </ul>
         
-        <div class='dropDown absolute w-full bg-slate-800 md:invisible h-0 overflow-hidden' style={{transition:'ease-in-out 1s'}}>
+        <div class='dropDown absolute w-full font-mono bg-slate-800 md:invisible h-0 overflow-hidden' style={{transition:'ease-in-out 1s'}}>
             <ul class='items-center' >
                 <li class='flex justify-center p-2'>About</li>
                 <li class='flex justify-center p-2'>Education</li>
