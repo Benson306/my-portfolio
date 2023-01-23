@@ -49,12 +49,11 @@ function App() {
         <br />
         <Experience experienceRef={experienceRef} />
         <br />
-        <Projects projectsRef={projectsRef} />
-        <br />
         <center>
-          <Link to="" onClick={onDownload} class="bg-lime-600 text-white p-4 text-center shadow-xl">Download CV</Link>
+          <Link to="" onClick={onDownload} class="bg-lime-600 text-white p-4 hover:bg-lime-500 text-center shadow-xl">Download CV</Link>
         </center>
-        
+        <br />
+        <Projects projectsRef={projectsRef} />
         <br />
         <Contacts contactsRef={contactsRef} />
 
