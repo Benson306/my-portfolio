@@ -26,7 +26,7 @@ function App() {
       <br /><br />
       <main class="pt-12">
 
-      <Route exact path={["/","/#about","/#education","/#experience","/#projects","/#contacts"]}>
+      <Route exact path={["/","/#about","/#education", "/#skills" ,"/#experience","/#projects","/#contacts"]}>
 
         <About aboutRef={aboutRef} projectsRef={projectsRef} />
         <br />
