@@ -57,7 +57,7 @@ const Navigation = ({aboutRef, educationRef, projectsRef, contactsRef}) => {
             </div>
         </ul>
         
-        <div class='dropDown absolute w-full font-mono bg-slate-800 md:invisible h-0 overflow-hidden' style={{transition:'ease-in-out 1s'}}>
+        <div class='dropDown absolute w-full font-mono bg-slate-800 md:invisible h-0 overflow-hidden' style={{transition:'ease-in-out 0.3s'}}>
             <ul class='items-center' >
                 <li class='flex justify-center p-2'>
                     <Link to="/#about" onClick={()=>{handleScroll(aboutRef.current);}} >About</Link>
