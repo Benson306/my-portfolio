@@ -18,7 +18,7 @@ const Contacts = ({contactsRef}) => {
                     
                     <br />
             
-                    <Link to="" onClick={() => window.location = 'mailto:yourmail@domain.com'} class="border-2  rounded border-lime-500 p-3 hover:bg-lime-600 text-white">Say Hi!</Link>
+                    <Link to="" onClick={() => window.location = 'mailto:bnkimtai@gmail.com'} class="border-2  rounded border-lime-500 p-3 hover:bg-lime-600 text-white">Say Hi!</Link>
                 </center>
             </div>
             <div class="invisible md:w-1/4">
