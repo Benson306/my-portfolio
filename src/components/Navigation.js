@@ -1,7 +1,7 @@
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 
-const Navigation = ({aboutRef, educationRef, projectsRef, contactsRef}) => {
+const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contactsRef}) => {
 
     let clicked = false;
     const handleClick = () =>{
@@ -11,7 +11,7 @@ const Navigation = ({aboutRef, educationRef, projectsRef, contactsRef}) => {
             clicked = false;
 
         }else if(!clicked){
-            document.querySelector('.dropDown').style.height = '208px';
+            document.querySelector('.dropDown').style.height = '248px';
 
             clicked = true;
 
@@ -46,6 +46,9 @@ const Navigation = ({aboutRef, educationRef, projectsRef, contactsRef}) => {
                     <Link to="/#education" onClick={()=>{handleScroll(educationRef.current);}} >Education</Link>
                 </li>
                 <li class='no-underline hover:underline decoration-lime-500 decoration-dotted underline-offset-8'>
+                    <Link to="/#projects" onClick={()=>{handleScroll(experienceRef.current);}} >Experience</Link>
+                </li>
+                <li class='no-underline hover:underline decoration-lime-500 decoration-dotted underline-offset-8'>
                     <Link to="/#projects" onClick={()=>{handleScroll(projectsRef.current);}} >Projects</Link>
                 </li>
                 <li class='no-underline hover:underline decoration-lime-500 decoration-dotted underline-offset-8'>
@@ -64,6 +67,9 @@ const Navigation = ({aboutRef, educationRef, projectsRef, contactsRef}) => {
                 </li>
                 <li class='flex justify-center p-2'>
                     <Link to="/#education" onClick={()=>{handleScroll(educationRef.current);}} >Education</Link>
+                </li>
+                <li class='flex justify-center p-2'>
+                    <Link to="/#projects" onClick={()=>{handleScroll(experienceRef.current);}} >Experience</Link>
                 </li>
                 <li class='flex justify-center p-2'>
                     <Link to="/#projects" onClick={()=>{handleScroll(projectsRef.current);}} >Projects</Link>
