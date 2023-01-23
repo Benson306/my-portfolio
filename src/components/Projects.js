@@ -13,7 +13,7 @@ const Projects = ({projectsRef}) => {
             description="An ecommerce web application with Cart, User dashboard and working payment options available. It also has an admin panel for management of orders, deliveries, products and delivery Locations."
             github="https://github.com/Benson306/ecommerce"
             link="https://ecomm-test.onrender.com"
-            languages={["React","Node.js","Express","MongoDb"]}
+            languages={["React","Node.js","Express","MongoDb","Tailwind CSS"]}
         />
 
         <Card 
@@ -31,7 +31,7 @@ const Projects = ({projectsRef}) => {
             description="A web application that allows a customer to browse, grab a product off the shelf, and head to the checkout counter to make a purchase. It has capability for enabling instant mobile payment."
             github="https://github.com/Benson306/Shopping_Cart"
             link="https://utulivucart.netlify.app"
-            languages={["React","Redux","Node.js","MongoDb"]}
+            languages={["React","Redux","Node.js","MongoDb", "Tailwind CSS"]}
         />
 
         <Card 
