@@ -1,7 +1,7 @@
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 
-import file from '../images/ben.jpg';
+import file from '../images/CV.docx';
 
 const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contactsRef}) => {
 
@@ -37,7 +37,7 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
             let url = window.URL.createObjectURL(blob);
             let a = document.createElement("a");
             a.href = url;
-            a.download = "ben.jpg";
+            a.download = "CV.docx";
             a.click();
           });
         });

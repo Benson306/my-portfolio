@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import {useRef} from 'react';
 import Experience from './components/Experience';
 import { Link } from "react-router-dom"
-import file from './images/ben.jpg';
+import file from './images/CV.docx';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
         let url = window.URL.createObjectURL(blob);
         let a = document.createElement("a");
         a.href = url;
-        a.download = "ben.jpg";
+        a.download = "CV.docx";
         a.click();
       });
     });
