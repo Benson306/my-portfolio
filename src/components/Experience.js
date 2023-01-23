@@ -9,7 +9,7 @@ const Experience = ({experienceRef}) => {
                     <td class="p-5 text-xl">Darna Works Limited</td>
                     <td class="p-5">
                         <h1 class="text-xl text-lime-300 font-serif">Junior Software Developer</h1>
-                        <h2 class="text-lg font-mono">Jun 2021 - May 2021</h2>
+                        <h2 class="text-lg font-mono">Jun 2021 - May 2022</h2>
                         <ul class="list-disc font-sans pt-4">
                             <li>Code writing and debugging.</li>
                             <li>Work closely with developers to improve product functionality.</li>
