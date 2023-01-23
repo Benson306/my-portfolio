@@ -1,6 +1,8 @@
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 
+import file from '../images/ben.jpg';
+
 const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contactsRef}) => {
 
     let clicked = false;
@@ -29,6 +31,17 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
         });
       };
 
+      const onDownload = () => {
+        fetch(file).then((response) => {
+          response.blob().then((blob) => {
+            let url = window.URL.createObjectURL(blob);
+            let a = document.createElement("a");
+            a.href = url;
+            a.download = "ben.jpg";
+            a.click();
+          });
+        });
+      };
 
     return ( <div>
         <ul class="sticky top-0 z-50 flex font-mono pt-5 px-5 pb-5 md:p-3 shadow-sm shadow-lime-900">
@@ -55,7 +68,7 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
                     <Link to="/#contacts" onClick={()=>{handleScroll(contactsRef.current);}} >Contact</Link>
                 </li>
                 <li class='border-solid border-2 rounded-lg border-lime-500 text-slate-100 p-2'>
-                    Download Resume
+                    <Link to="" onClick={onDownload}>Download Resume</Link>
                 </li>
             </div>
         </ul>
@@ -77,7 +90,9 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
                 <li class='flex justify-center p-2'>
                     <Link to="/#contacts" onClick={()=>{handleScroll(contactsRef.current);}}  >Contact</Link>
                 </li>
-                <li class='flex justify-center border-solid border-2 rounded border-lime-500 text-slate-100 p-2'>Download Resume</li>
+                <li class='flex justify-center border-solid border-2 rounded border-lime-500 text-slate-100 p-2'>
+                    <Link to="" onClick={onDownload}>Download Resume</Link>
+                </li>
             </ul>
         </div>
 

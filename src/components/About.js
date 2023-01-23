@@ -30,9 +30,9 @@ const About = ({aboutRef, projectsRef}) => {
         
         </div>
 
-        <Link to="/#projects" onClick={()=>{handleScroll(projectsRef.current);}}><button class="ml-20 p-4 border rounded border-lime-500 hover:bg-lime-800 hover:text-white font-">
-            Check out my projects!
-        </button></Link>
+        <button class="ml-20 p-4 border rounded border-lime-500 hover:bg-lime-800 hover:text-white font-">
+        <Link to="/#projects" onClick={()=>{handleScroll(projectsRef.current);}}> Check out my projects! </Link>
+        </button>
     </div>
     );
 }

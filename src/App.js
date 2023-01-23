@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import Contacts from './components/Contacts';
@@ -7,6 +7,8 @@ import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import {useRef} from 'react';
 import Experience from './components/Experience';
+import { Link } from "react-router-dom"
+import file from './images/ben.jpg';
 
 function App() {
 
@@ -15,6 +17,19 @@ function App() {
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const contactsRef = useRef(null);
+
+
+  const onDownload = () => {
+    fetch(file).then((response) => {
+      response.blob().then((blob) => {
+        let url = window.URL.createObjectURL(blob);
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = "ben.jpg";
+        a.click();
+      });
+    });
+  };
 
 
   return (
@@ -35,6 +50,11 @@ function App() {
         <Experience experienceRef={experienceRef} />
         <br />
         <Projects projectsRef={projectsRef} />
+        <br />
+        <center>
+          <Link to="" onClick={onDownload} class="bg-lime-600 text-white p-4 text-center shadow-xl">Download CV</Link>
+        </center>
+        
         <br />
         <Contacts contactsRef={contactsRef} />
 
