@@ -1,7 +1,7 @@
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Link } from 'react-router-dom';
 
-import file from '../images/CV.docx';
+import file from '../images/CV.pdf';
 
 const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contactsRef}) => {
 
@@ -37,7 +37,7 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
             let url = window.URL.createObjectURL(blob);
             let a = document.createElement("a");
             a.href = url;
-            a.download = "CV.docx";
+            a.download = "CV.pdf";
             a.click();
           });
         });
@@ -67,7 +67,7 @@ const Navigation = ({aboutRef, educationRef, experienceRef, projectsRef, contact
                 <li class='no-underline hover:underline decoration-lime-500 decoration-dotted underline-offset-8'>
                     <Link to="/#contacts" onClick={()=>{handleScroll(contactsRef.current);}} >Contact</Link>
                 </li>
-                <li class='border-solid border-2 rounded-lg border-lime-500 text-slate-100 p-2'>
+                <li class='border-solid border-2 rounded-lg border-lime-500 text-slate-100 p-2 hover:bg-lime-800'>
                     <Link to="" onClick={onDownload}>Download Resume</Link>
                 </li>
             </div>
