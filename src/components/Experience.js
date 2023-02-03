@@ -42,7 +42,7 @@ const Experience = ({experienceRef}) => {
             <h1 class="p-4 pb-0 ml-1 font-sans text-lime-300 text-xl">Darna Works Limited</h1>
                     <div class="p-5 pt-0">
                         <h1 class="text-xl text-zinc-300 font-serif">Junior Software Developer</h1>
-                        <h2 class="text-lg font-mono">Jun 2021 - May 2021</h2>
+                        <h2 class="text-lg font-mono">Jun 2021 - May 2022</h2>
                         <ul class="list-disc font-sans ml-5 pt-2">
                             <li>Code writing and debugging.</li>
                             <li>Work closely with developers to improve product functionality.</li>
