@@ -10,10 +10,12 @@ const Skills = () => {
                     <ul class="p-3 md:p-8">
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Javascript (ES 6 +)</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> React</li>
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Angular</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Node.js</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> TypeScript</li>
                     </ul>
                     <ul class="p-3 md:p-8">
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Java</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Python</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Flask</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> MongoDB</li>
