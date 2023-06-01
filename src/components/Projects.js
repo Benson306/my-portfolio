@@ -28,7 +28,7 @@ const Projects = ({projectsRef}) => {
         <Card 
             image="ikowhat.png"
             title="An Online Clothing Store" 
-            description="The React clothing store project is a modern e-commerce application built using the React JavaScript library. It offers a visually appealing and user-friendly interface, allowing customers to browse and purchase clothing items with ease."
+            description="The online clothing store project is a modern e-commerce application built using the React JavaScript library. It offers a visually appealing and user-friendly interface, allowing customers to browse and purchase clothing items with ease."
             github="https://github.com/Benson306/react-store-frontend"
             link="https://ikoniniclothing.netlify.app"
             languages={["React","UseReducer","Flask","MongoDb", "Redis" ,"Tailwind CSS"]}
@@ -85,7 +85,7 @@ const Projects = ({projectsRef}) => {
         <Card 
             image="utulivu-react-native.jpeg"
             title="An Electronic Store" 
-            description="The React Native ecommerce app project is a cross-platform mobile application built with React Native. It offers a seamless shopping experience with features like product browsing, cart management, and secure payment options, providing users with a convenient way to purchase products directly from their mobile devices."
+            description="The electronic store app project is a cross-platform mobile application built with React Native. It offers a seamless shopping experience with features like product browsing, cart management, and secure payment options, providing users with a convenient way to purchase products directly from their mobile devices."
             github="https://github.com/Benson306/utulivu-ecommerce"
             link="#"
             languages={["React Native","UseReducer","Spring Boot","MySQL", "Redis"]}
@@ -94,10 +94,10 @@ const Projects = ({projectsRef}) => {
         <Card 
             image="weatherApp.jpeg"
             title="Weather App" 
-            description="The React Native weather app project is a mobile application developed using the React Native framework. It provides real-time weather information and a sleek user interface, allowing users to easily check the weather forecast for their location and other desired locations."
+            description="The weather app project is a mobile application developed using the React Native framework. It provides real-time weather information and a sleek user interface, allowing users to easily check the weather forecast for their location and other desired locations."
             github="https://github.com/Benson306/weather-app"
             link="#"
-            languages={["React Native","UseReducer","Falsk","MongoDB", "Redis"]}
+            languages={["React Native","UseReducer","Flask","MongoDB", "Redis"]}
         />
 
     </div>
