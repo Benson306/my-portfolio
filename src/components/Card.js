@@ -5,7 +5,7 @@ const Card = ({title, description, image, github, link, languages}) => {
 
     return ( 
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-800 hover:bg-slate-700">
-            <img class="w-full object-cover" src={require(`../images/${image}`)} alt={title} />
+            <img class="w-full object-cover" src={require(`../images/${image}`)} style={{width: '400px'}} alt={title} />
             <div class="px-6 py-4">
                 <div class="flex justify-center font-bold text-xl mb-2 text-lime-500">{title}</div>
                 <p class="flex justify-center text-slate-100 text-base">

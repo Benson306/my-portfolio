@@ -17,21 +17,32 @@ const Projects = ({projectsRef}) => {
         />
 
         <Card 
-            image="rms.png"
-            title="Real Estate Management System" 
-            description="A web application that enables real estate professionals to track residents, leases, maintenance tasks, collect rent, and handle finances to update operations and reduce costs."
-            github="https://github.com/Benson306/real_estate_php"
-            link="#"
-            languages={["PHP","MySQL","CSS","Daraja API"]}
-        />
-
-        <Card 
             image="utulivu.png"
             title="Utulivu Shopping Cart" 
             description="A web application that allows a customer to browse, grab a product off the shelf, and head to the checkout counter to make a purchase. It has capability for enabling instant mobile payment."
             github="https://github.com/Benson306/Shopping_Cart"
             link="https://utulivucart.netlify.app"
             languages={["React","Redux","Node.js","MongoDb", "Tailwind CSS"]}
+        />
+
+        <Card 
+            image="ikowhat.png"
+            title="An Online Clothing Store" 
+            description="The React clothing store project is a modern e-commerce application built using the React JavaScript library. It offers a visually appealing and user-friendly interface, allowing customers to browse and purchase clothing items with ease."
+            github="https://github.com/Benson306/react-store-frontend"
+            link="https://ikoniniclothing.netlify.app"
+            languages={["React","UseReducer","Flask","MongoDb", "Redis" ,"Tailwind CSS"]}
+        />
+
+        
+
+        <Card 
+            image="rms.png"
+            title="Real Estate Management System" 
+            description="A web application that enables real estate professionals to track residents, leases, maintenance tasks, collect rent, and handle finances to update operations and reduce costs."
+            github="https://github.com/Benson306/real_estate_php"
+            link="#"
+            languages={["PHP","MySQL","CSS","Daraja API"]}
         />
 
         <Card 
@@ -50,6 +61,43 @@ const Projects = ({projectsRef}) => {
             github="https://github.com/Benson306/Brindex-Course-Search"
             link="#"
             languages={["PHP","Javascript","MySQL"]}
+        />
+
+        <Card 
+            image="darna.png"
+            title="A Construction Company Website" 
+            description="The construction website, developed using PHP, JS, and Bootstrap, showcases a responsive design that adapts to various devices and screen sizes. It leverages interactive JavaScript functionalities to enhance user experience, while PHP handles dynamic content generation, enabling seamless management of project information, portfolios, and contact forms."
+            github="https://github.com/Benson306/darnaworks"
+            link="https://daranaworkslimited.co.ke"
+            languages={["Bootstrap","PHP","PHP Mailer","CSS", "Javascript"]}
+        />
+
+        <Card 
+            image="compleat.png"
+            title="A Mediation Firm Website" 
+            description="The construction website, developed using PHP, JS, and Bootstrap, showcases a responsive design that adapts to various devices and screen sizes. It leverages interactive JavaScript functionalities to enhance user experience, while PHP handles dynamic content generation, enabling seamless management of project information, portfolios, and contact forms."
+            github="https://github.com/Benson306/compleat_africa"
+            link="https://compleat.co.ke"
+            languages={["Javascript", "Bootstrap","PHP","PHP Mailer","CSS"]}
+        />
+    </div>
+    <div class="flex flex-wrap gap-10 justify-center p-8 pt-5">    
+        <Card 
+            image="utulivu-react-native.jpeg"
+            title="An Electronic Store" 
+            description="The React Native ecommerce app project is a cross-platform mobile application built with React Native. It offers a seamless shopping experience with features like product browsing, cart management, and secure payment options, providing users with a convenient way to purchase products directly from their mobile devices."
+            github="https://github.com/Benson306/utulivu-ecommerce"
+            link="#"
+            languages={["React Native","UseReducer","Spring Boot","MySQL", "Redis"]}
+        />
+
+        <Card 
+            image="weatherApp.jpeg"
+            title="Weather App" 
+            description="The React Native weather app project is a mobile application developed using the React Native framework. It provides real-time weather information and a sleek user interface, allowing users to easily check the weather forecast for their location and other desired locations."
+            github="https://github.com/Benson306/weather-app"
+            link="#"
+            languages={["React Native","UseReducer","Falsk","MongoDB", "Redis"]}
         />
 
     </div>
