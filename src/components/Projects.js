@@ -30,8 +30,8 @@ const Projects = ({projectsRef}) => {
             title="An Online Clothing Store" 
             description="The online clothing store project is a modern e-commerce application built using the React JavaScript library. It offers a visually appealing and user-friendly interface, allowing customers to browse and purchase clothing items with ease."
             github="https://github.com/Benson306/react-store-frontend"
-            link="https://ikoniniclothing.netlify.app"
-            languages={["React","UseReducer","Flask","MongoDb", "Redis" ,"Tailwind CSS"]}
+            link="https://merchstoreapp.netlify.app/"
+            languages={["React","UseReducer","Node Js","MongoDb", "Redis" ,"Tailwind CSS"]}
         />
 
         
