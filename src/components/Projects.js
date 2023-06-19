@@ -55,6 +55,15 @@ const Projects = ({projectsRef}) => {
         />
 
         <Card 
+            image="expense.png"
+            title="React Expense Tracker" 
+            description="This is a simple Expense Tracker application built with React JS and React Router DOM 6. It allows you to track your expenses, manage monthly budgets, and perform various operations such as adding, editing, and deleting expenses."
+            github="https://github.com/Benson306/expense-tracker"
+            link="https://bens-expense-tracker.netlify.app"
+            languages={["Javascript","Tailwind CSS", "useContext", "useReducer"]}
+        />
+
+        <Card 
             image="brindex.png"
             title="Brindex Course Search" 
             description="A course finder application to compare diploma, undergraduate and postgraduate courses from colleges, top universities and higher education institutions across Kenya, incluiding entry requirements."
@@ -68,7 +77,7 @@ const Projects = ({projectsRef}) => {
             title="A Construction Company Website" 
             description="The construction website, developed using PHP, JS, and Bootstrap, showcases a responsive design that adapts to various devices and screen sizes. It leverages interactive JavaScript functionalities to enhance user experience, while PHP handles dynamic content generation, enabling seamless management of project information, portfolios, and contact forms."
             github="https://github.com/Benson306/darnaworks"
-            link="https://daranaworkslimited.co.ke"
+            link="https://compleat.co.ke/darna"
             languages={["Bootstrap","PHP","PHP Mailer","CSS", "Javascript"]}
         />
 
