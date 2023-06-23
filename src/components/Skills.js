@@ -9,7 +9,7 @@ const Skills = () => {
                 <div class="flex bg-slate-700 hover:bg-slate-600 rounded-lg mt-4">
                     <ul class="p-3 md:p-8">
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Javascript (ES 6 +)</li>
-                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> React, Angular</li>
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> React, React Native</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> TypeScript</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Node.js, Express</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Tailwind CSS, Bootstrap</li>
