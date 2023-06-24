@@ -18,7 +18,6 @@ const Skills = () => {
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Java, Spring Boot</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> PHP, Laravel </li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Python, Flask</li>
-                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> C#, .Net, ASP.Net Core</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> MongoDB , MySQL, Redis</li>
                     </ul>
                 </div>
