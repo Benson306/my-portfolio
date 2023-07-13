@@ -77,7 +77,7 @@ const Projects = ({projectsRef}) => {
             title="A Construction Company Website" 
             description="The construction website, developed using PHP, JS, and Bootstrap, showcases a responsive design that adapts to various devices and screen sizes. It leverages interactive JavaScript functionalities to enhance user experience, while PHP handles dynamic content generation, enabling seamless management of project information, portfolios, and contact forms."
             github="https://github.com/Benson306/darnaworks"
-            link="https://compleat.co.ke/darna"
+            link="https://darnaworksltd.co.ke"
             languages={["Bootstrap","PHP","PHP Mailer","CSS", "Javascript"]}
         />
 
