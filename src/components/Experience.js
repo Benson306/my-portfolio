@@ -6,6 +6,21 @@ const Experience = ({experienceRef}) => {
         <div class="md:flex hidden md:visible justify-center p-10">
             <table class="p-5 mx-16">
                 <tr class="p-5 border-b-4 border-double hover:bg-slate-600">
+                    <td class="p-5 text-xl">Techno Brain Limited</td>
+                    <td class="p-5">
+                        <h1 class="text-xl text-lime-300 font-serif">Software Development Engineer in Test</h1>
+                        <h2 class="text-lg font-mono">July 2023 - Present</h2>
+                        <ul class="list-disc font-sans pt-4">
+                            <li>Develop and maintain automated test scripts to ensure the quality and stability of software products.</li>
+                            <li>Integrate automated tests into the build and deployment pipelines to enable frequent and reliable releases.</li>
+                            <li>Create and execute performance tests to assess the software's scalability, responsiveness, and stability.</li>
+                            <li>Participate in code reviews to ensure testability, maintainability, and adherence to best practices.</li>
+                            <li>Work within agile methodologies, contributing to sprint planning, backlog grooming, and delivering features iteratively.</li>
+                        </ul>
+
+                    </td>
+                </tr>
+                <tr class="p-5 border-b-4 border-double hover:bg-slate-600">
                     <td class="p-5 text-xl">Darna Limited</td>
                     <td class="p-5">
                         <h1 class="text-xl text-lime-300 font-serif">Software Developer Intern</h1>
