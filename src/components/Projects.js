@@ -49,7 +49,7 @@ const Projects = ({projectsRef}) => {
             image="hms.png"
             title="Hospital ERP" 
             description="A web application that aims at bringing quality in patient care & management with various important utilities like easy & quick patient registration, instant access to patient's complete health hsitory, integrated patient module with various other related departments and many more"
-            github="https://github.com/Benson306/Hospital_Management_System"
+            github="#"
             link="#"
             languages={["Angular","Node JS","Mongo DB"]}
         />
