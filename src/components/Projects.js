@@ -11,9 +11,9 @@ const Projects = ({projectsRef}) => {
             image="ecomm.png"
             title="Ecommerce Web Application" 
             description="An ecommerce web application with Cart, User dashboard and working payment options available. It also has an admin panel for management of orders, deliveries, products and delivery Locations."
-            github="https://github.com/Benson306/ecommerce"
+            github="#"
             link="https://ecomm-test.onrender.com"
-            languages={["React","Node.js","Express","MongoDb","Tailwind CSS"]}
+            languages={["Angular","Spring Boot", "MySQL","Tailwind CSS"]}
         />
 
         <Card 
@@ -40,9 +40,9 @@ const Projects = ({projectsRef}) => {
             image="rms.png"
             title="Real Estate Management System" 
             description="A web application that enables real estate professionals to track residents, leases, maintenance tasks, collect rent, and handle finances to update operations and reduce costs."
-            github="https://github.com/Benson306/real_estate_php"
+            github="#"
             link="#"
-            languages={["PHP","MySQL","CSS","Daraja API"]}
+            languages={["Spring Boot","React","Daraja API"]}
         />
 
         <Card 
@@ -51,7 +51,7 @@ const Projects = ({projectsRef}) => {
             description="A web application that aims at bringing quality in patient care & management with various important utilities like easy & quick patient registration, instant access to patient's complete health hsitory, integrated patient module with various other related departments and many more"
             github="https://github.com/Benson306/Hospital_Management_System"
             link="#"
-            languages={["PHP","Javascript","MySQL","Mpdf"]}
+            languages={["Angular","Node JS","Mongo DB"]}
         />
 
         <Card 
@@ -67,9 +67,9 @@ const Projects = ({projectsRef}) => {
             image="brindex.png"
             title="Brindex Course Search" 
             description="A course finder application to compare diploma, undergraduate and postgraduate courses from colleges, top universities and higher education institutions across Kenya, incluiding entry requirements."
-            github="https://github.com/Benson306/Brindex-Course-Search"
+            github="#"
             link="#"
-            languages={["PHP","Javascript","MySQL"]}
+            languages={["Angular","Spring Boot","MySQL"]}
         />
 
         <Card 
@@ -106,7 +106,7 @@ const Projects = ({projectsRef}) => {
             description="The weather app project is a mobile application developed using the React Native framework. It provides real-time weather information and a sleek user interface, allowing users to easily check the weather forecast for their location and other desired locations."
             github="https://github.com/Benson306/weather-app"
             link="#"
-            languages={["React Native","UseReducer","Flask","MongoDB", "Redis"]}
+            languages={["React Native","UseReducer","Spring Boot","MongoDB", "Redis"]}
         />
 
     </div>
