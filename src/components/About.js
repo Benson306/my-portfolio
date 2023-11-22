@@ -20,7 +20,7 @@ const About = ({aboutRef, projectsRef}) => {
                 <h2 class="text-zinc-400 text-xl md:text-5xl font-serif font-semibold pt-1 md:pt-3">I am a Full Stack web Developer.</h2>
 
                 <div class="pt-5 md:pt-10 text-sm md:text-lg text-zinc-300 font-mono">
-                I'm a solution-driven web developer adept at contributing to a highly collaborative work environment and finding solutions. I have proven experience developing consumer-focused web applications. I also have good grasp of the best practices for web development, user experience, security and speed.
+                I'm a solution-driven developer adept at contributing to a highly collaborative work environment and finding solutions. I have proven experience developing consumer-focused web and mobile applications. I also have good grasp of the best practices for web development, user experience, security and speed.
                 </div>
             </div> 
 

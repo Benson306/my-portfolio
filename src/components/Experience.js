@@ -8,9 +8,11 @@ const Experience = ({experienceRef}) => {
                 <tr class="p-5 border-b-4 border-double hover:bg-slate-600">
                     <td class="p-5 text-xl">Techno Brain Limited</td>
                     <td class="p-5">
-                        <h1 class="text-xl text-lime-300 font-serif">Software Development Engineer in Test (SDET)</h1>
-                        <h2 class="text-lg font-mono">July 2023 - Present</h2>
+                        <h1 class="text-xl text-lime-300 font-serif">Software Development Engineer(SDE)</h1>
+                        <h2 class="text-lg font-mono">July 2022 - Present</h2>
                         <ul class="list-disc font-sans pt-4">
+                            <li>Develop privacy features on Microsoft Teams</li>
+                            <li>Develop privacy features on Office 365 suite</li>
                             <li>Develop and maintain automated test scripts to ensure the quality and stability of software products.</li>
                             <li>Integrate automated tests into the build and deployment pipelines to enable frequent and reliable releases.</li>
                             <li>Create and execute performance tests to assess the software's scalability, responsiveness, and stability.</li>
@@ -23,7 +25,7 @@ const Experience = ({experienceRef}) => {
                 <tr class="p-5 border-b-4 border-double hover:bg-slate-600">
                     <td class="p-5 text-xl">Darna Limited</td>
                     <td class="p-5">
-                        <h1 class="text-xl text-lime-300 font-serif">Software Developer Intern</h1>
+                        <h1 class="text-xl text-lime-300 font-serif">Software Engineer</h1>
                         <h2 class="text-lg font-mono">Jun 2021 - May 2022</h2>
                         <ul class="list-disc font-sans pt-4">
                             <li>Code writing and debugging.</li>

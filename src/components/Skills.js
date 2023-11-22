@@ -10,15 +10,15 @@ const Skills = () => {
                     <ul class="p-3 md:p-8">
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Javascript (ES 6 +)</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> React, React Native</li>
-                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> C#, ASP.NET</li>
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Angular</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Node.js, Express</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Tailwind CSS, Bootstrap</li>
                     </ul>
                     <ul class="p-3 md:p-8">
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Java, Spring Boot</li>
                         <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> PHP, Laravel </li>
-                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> Python, Flask</li>
-                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> MongoDB , MySQL</li>
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> C#, ASP.NET</li>
+                        <li class="flex align-middle"><KeyboardDoubleArrowRightOutlinedIcon color={"primary"} /> MongoDB , MySQL, Redis</li>
                     </ul>
                 </div>
         
